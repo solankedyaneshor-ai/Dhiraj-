@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Vision Target Circle (cyan accent) -->
+    <path
+        android:strokeColor="#1E3A5F"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.8"
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26 Z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M34,54 L26,54 M82,54 L74,54 M54,34 L54,26 M54,82 L54,74" />
+
+    <!-- Candlestick 1: Bearish candle (left) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2"
+        android:pathData="M38,40 L38,68" />
+    <!-- Body -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M34,46 L42,46 L42,62 L34,62 Z" />
+
+    <!-- Candlestick 2: Bullish impulse candle (center-left) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="2"
+        android:pathData="M54,32 L54,72" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M50,38 L58,38 L58,64 L50,64 Z" />
+
+    <!-- Candlestick 3: Strong Breakout candle (right) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="2"
+        android:pathData="M70,28 L70,60" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M66,32 L74,32 L74,52 L66,52 Z" />
+
+    <!-- AI Vision Beacon / Reticle at breakout point -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M70,24 L74,28 L70,32 L66,28 Z" />
+
+    <!-- Target Reticle Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,52 A2,2 0 1,1 53.9,52 Z" />
+</vector>

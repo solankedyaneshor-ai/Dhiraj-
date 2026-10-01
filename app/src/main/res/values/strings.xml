@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TradeVision AI</string>
+    <string name="nav_analyze">Analyze</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_history">Journal</string>
+    <string name="nav_guide">Guide</string>
+    <string name="disclaimer_banner">Educational &amp; technical analysis only. Not financial advice. Does not execute trades.</string>
+</resources>

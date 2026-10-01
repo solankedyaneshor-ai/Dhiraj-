@@ -1,0 +1,6 @@
+{
+  "name": "TradeVision AI",
+  "description": "AI trading analysis app that analyzes trading chart screenshots and provides actionable technical setups, confluences, entry zones, stop loss, take profit targets, and profit/loss calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
